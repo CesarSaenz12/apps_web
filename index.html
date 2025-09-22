@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CesConect</title>
+    <link rel="stylesheet" href="styles/styles.css">
+    <link rel="icon" type="image/png" href="images/logo.png">
+</head>
+<body>
+    <nav>
+        <div class="nav-container">
+            <div class="logo">
+                <img src="images/logo.png" alt="CesConect Logo" class="logo-img">
+                <h1>CesConect</h1>
+            </div>
+            <ul class="nav-menu">
+                <button>Inicio</button>
+                <button onclick="location.href='Perfil/perfil.html'">
+                    Perfil
+                </button>
+                <button onclick="location.href='Mensajes/mensajes.html'">Mensajes</button>
+                <button onclick="location.href='Notificaciones/notificaciones.html'">Notificaciones</button>
+                <button onclick="location.href='Configuracion/configuracion.html'">Configuración</button>
+            </ul>
+        </div>
+    </nav>
+
+    <main>
+        <section class="post-creation">
+            <textarea placeholder="¿Qué estás pensando?"></textarea>
+            <button>Publicar</button>
+        </section>
+
+        <section class="feed">
+            <div class="post">
+                <h3>@Carlos-de-los-Santos</h3>
+                <p>Este es un ejemplo de publicación en el feed. El diseño minimalista ayuda a que el contenido sea el protagonista.</p>
+                <div class="post-actions">
+                    <button>Me gusta</button>
+                    <button>Comentar</button>
+                    <button>Compartir</button>
+                </div>
+            </div>
+
+            <div class="post">
+                <h3>@Hugo.Lucio</h3>
+                <p>Otro ejemplo de publicación en el feed. Los tonos oscuros proporcionan una experiencia visual más relajante para los usuarios.</p>
+                <div class="post-actions">
+                    <button>Me gusta</button>
+                    <button>Comentar</button>
+                    <button>Compartir</button>
+                </div>
+            </div>
+
+            <div class="post">
+                <h3>@Cesar_Saenz</h3>
+                <p>¡Bienvenidos a CesConect! Una plataforma diseñada con un enfoque minimalista y moderno para conectar personas de manera simple y elegante.</p>
+                <div class="post-actions">
+                    <button>Me gusta</button>
+                    <button>Comentar</button>
+                    <button>Compartir</button>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 CesConect. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>
